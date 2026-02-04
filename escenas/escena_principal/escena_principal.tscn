@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://do4am1f1yxsaw"]
+
+[ext_resource type="PackedScene" uid="uid://cpdldh2pa6q4l" path="res://escenas/nivel1/nivel_1.tscn" id="1_pdctq"]
+[ext_resource type="Script" uid="uid://b2xyxcj76kosb" path="res://escenas/escena_principal/escena_principal.gd" id="1_snxy5"]
+
+[node name="escena_principal" type="Node2D" unique_id=1777524528]
+script = ExtResource("1_snxy5")
+niveles = Array[PackedScene]([ExtResource("1_pdctq")])

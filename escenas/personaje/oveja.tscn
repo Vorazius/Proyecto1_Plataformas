@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://c2n5rbdrgs2p8"]
+
+[ext_resource type="SpriteFrames" uid="uid://dttrxnfu2wkxg" path="res://escenas/personaje/sprite_frames_personaje.tres" id="1_krep3"]
+[ext_resource type="Script" uid="uid://bysn80l1hmd1j" path="res://escenas/personaje/oveja.gd" id="1_njfb7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_njfb7"]
+size = Vector2(30, 27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_guel0"]
+size = Vector2(30, 27)
+
+[node name="Oveja" type="CharacterBody2D" unique_id=2036753497 node_paths=PackedStringArray("animacion", "area_2d")]
+collision_layer = 4
+script = ExtResource("1_njfb7")
+animacion = NodePath("Animacion")
+area_2d = NodePath("Area2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=752739041]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_njfb7")
+
+[node name="Animacion" type="AnimatedSprite2D" parent="." unique_id=617112149]
+sprite_frames = ExtResource("1_krep3")
+animation = &"daño"
+frame_progress = 0.43314466
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=602480378]
+zoom = Vector2(2.35, 2.35)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1779879994]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=960788584]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_guel0")
