@@ -2,6 +2,7 @@
 **1. Información general**
 
 Itchio: https://voraz031.itch.io
+
 GitHub: https://github.com/Vorazius
 
 ------------
