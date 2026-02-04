@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://b2ko34rdx8qsy"]
+
+[ext_resource type="Script" uid="uid://bmnq752jkawdm" path="res://escenas/monedas/moneda.gd" id="1_c31iw"]
+[ext_resource type="Texture2D" uid="uid://cybuvix8k6rho" path="res://Objects/Objects.png" id="2_imwjc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oco7k"]
+atlas = ExtResource("2_imwjc")
+region = Rect2(512, 224, 16, 16)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_aca1j"]
+radius = 7.0
+
+[node name="Moneda" type="Node2D" unique_id=1071492146 node_paths=PackedStringArray("area_2d")]
+script = ExtResource("1_c31iw")
+area_2d = NodePath("Area2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1362405484]
+texture = SubResource("AtlasTexture_oco7k")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1986474580]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=155621396]
+shape = SubResource("CircleShape2D_aca1j")
