@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dy052bywo85rc"
+path="res://.godot/imported/Adventure Awaits FULL.ogg-4aa94e3d72be792702eaa52e8fee2ff8.oggvorbisstr"
+
+[deps]
+
+source_file="res://sonidos/OGG/Adventure Awaits FULL.ogg"
+dest_files=["res://.godot/imported/Adventure Awaits FULL.ogg-4aa94e3d72be792702eaa52e8fee2ff8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

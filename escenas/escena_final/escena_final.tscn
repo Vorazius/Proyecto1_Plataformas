@@ -15,3 +15,5 @@ offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
 text = "Felicidades has ganado"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=648895447]

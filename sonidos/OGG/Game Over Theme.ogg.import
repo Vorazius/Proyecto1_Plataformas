@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ca8jkwgtygto0"
+path="res://.godot/imported/Game Over Theme.ogg-0c2f9d21bb225ec828d0d89ef7d1af2d.oggvorbisstr"
+
+[deps]
+
+source_file="res://sonidos/OGG/Game Over Theme.ogg"
+dest_files=["res://.godot/imported/Game Over Theme.ogg-0c2f9d21bb225ec828d0d89ef7d1af2d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

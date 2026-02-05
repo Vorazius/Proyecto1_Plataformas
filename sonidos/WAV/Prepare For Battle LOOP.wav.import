@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c12gcafi3udka"
+path="res://.godot/imported/Prepare For Battle LOOP.wav-e72b10f389b39a337f20b3251e0343a5.sample"
+
+[deps]
+
+source_file="res://sonidos/WAV/Prepare For Battle LOOP.wav"
+dest_files=["res://.godot/imported/Prepare For Battle LOOP.wav-e72b10f389b39a337f20b3251e0343a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -4,7 +4,26 @@
 [ext_resource type="Script" uid="uid://b2xyxcj76kosb" path="res://escenas/escena_principal/escena_principal.gd" id="1_snxy5"]
 [ext_resource type="PackedScene" uid="uid://dhp7idynto08h" path="res://escenas/nivel_2/nivel_2.tscn" id="3_yoxmf"]
 [ext_resource type="PackedScene" uid="uid://cy7janqteme8" path="res://escenas/escena_final/escena_final.tscn" id="4_sbgap"]
+[ext_resource type="AudioStream" uid="uid://i1vnp7h5gsrj" path="res://sonidos/OGG/Adventure Awaits LOOP.ogg" id="5_rrast"]
+[ext_resource type="PackedScene" uid="uid://kuhp1tlm0pht" path="res://escenas/contador_muertes.tscn" id="6_y7kll"]
 
 [node name="escena_principal" type="Node2D" unique_id=1777524528]
 script = ExtResource("1_snxy5")
 niveles = Array[PackedScene]([ExtResource("1_pdctq"), ExtResource("3_yoxmf"), ExtResource("4_sbgap")])
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1989285553]
+stream = ExtResource("5_rrast")
+autoplay = true
+bus = &"Musica"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1909770847]
+
+[node name="ContadorMuertes" parent="CanvasLayer" unique_id=1536803174 instance=ExtResource("6_y7kll")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_top = 24.11
+offset_right = 0.0
+offset_bottom = 24.11
+grow_vertical = 1

@@ -14,6 +14,14 @@ config/name="Knock off"
 run/main_scene="uid://do4am1f1yxsaw"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
+[audio]
+
+buses/default_bus_layout="uid://bqh0r36leejcb"
+
+[autoload]
+
+ControladorGlobal="*uid://c1655xdyb1nt6"
+
 [input]
 
 izquierda={

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b1ja8ublthy66"
+path="res://.godot/imported/Prepare For Battle LOOP.ogg-971d9f77a839baabfbff033e229038ef.oggvorbisstr"
+
+[deps]
+
+source_file="res://sonidos/OGG/Prepare For Battle LOOP.ogg"
+dest_files=["res://.godot/imported/Prepare For Battle LOOP.ogg-971d9f77a839baabfbff033e229038ef.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
