@@ -32,17 +32,15 @@ El objetivo principal es completar los niveles evitando morir.
 **4. Mecánicas de juego**
 
 Las mecánicas del juego son simples y están pensadas para aprender del motor Godot y el desarrollo de un juego de plataformas básico.
-Movimiento lateral (izquierda / derecha)
 
-Salto
 
-Doble salto
+Teclas movimiento lateral (a / d)
 
-Enemigos simples
+Tecla salto (Espacio)
 
-Muerte al tocar enemigos
+Tecla de pausa (Esc)
 
-Sistema de vida
+Muerte al tocar obstaculos 
 
 
 ------------
