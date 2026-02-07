@@ -6,10 +6,13 @@
 [ext_resource type="PackedScene" uid="uid://cy7janqteme8" path="res://escenas/escena_final/escena_final.tscn" id="4_sbgap"]
 [ext_resource type="AudioStream" uid="uid://i1vnp7h5gsrj" path="res://sonidos/OGG/Adventure Awaits LOOP.ogg" id="5_rrast"]
 [ext_resource type="PackedScene" uid="uid://kuhp1tlm0pht" path="res://escenas/contador_muertes.tscn" id="6_y7kll"]
+[ext_resource type="PackedScene" uid="uid://cqoxps6k0t82e" path="res://escenas/controlador_partidas/controlador_partida.tscn" id="7_px6n3"]
+[ext_resource type="Script" uid="uid://b2176xxtobdxw" path="res://escenas/escena_principal/controlador_pausa.gd" id="8_e307b"]
 
-[node name="escena_principal" type="Node2D" unique_id=1777524528]
+[node name="escena_principal" type="Node2D" unique_id=1777524528 node_paths=PackedStringArray("controlador_partida")]
 script = ExtResource("1_snxy5")
 niveles = Array[PackedScene]([ExtResource("1_pdctq"), ExtResource("3_yoxmf"), ExtResource("4_sbgap")])
+controlador_partida = NodePath("ControladorPartida")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1989285553]
 stream = ExtResource("5_rrast")
@@ -27,3 +30,9 @@ offset_top = 24.11
 offset_right = 0.0
 offset_bottom = 24.11
 grow_vertical = 1
+
+[node name="ControladorPartida" parent="." unique_id=1264366505 instance=ExtResource("7_px6n3")]
+
+[node name="ControladorPausa" type="Node" parent="." unique_id=1749792387]
+process_mode = 3
+script = ExtResource("8_e307b")

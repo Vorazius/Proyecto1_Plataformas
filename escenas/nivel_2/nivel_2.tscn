@@ -240,3 +240,6 @@ tile_set = SubResource("TileSet_uc2ro")
 
 [node name="Moneda" parent="ContenedorMonedas" unique_id=1071492146 instance=ExtResource("4_q1x2y")]
 position = Vector2(-72, 4)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=776934539]
+zoom = Vector2(1.515, 1.515)

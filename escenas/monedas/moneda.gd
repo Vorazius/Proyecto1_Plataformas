@@ -12,7 +12,7 @@ func _ready() -> void:
 
 func _recogida(_body):
 	contenedor_monedas.moneda_recogida()
-	reproductor.reparent(get_parent())
+	reproductor.reparent(get_parent().get_parent().get_parent())
 	reproductor.play()
 	queue_free()
 
