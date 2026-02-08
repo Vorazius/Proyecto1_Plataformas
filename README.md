@@ -53,20 +53,15 @@ Los niveles están pensados para que el jugador vaya aprendiendo poco a poco. Al
 Además, los niveles no son muy largos, por lo que si el jugador falla puede volver a intentarlo rápidamente sin que resulte frustrante.
 
 
-El juego contará con 5 niveles:
+El juego contará con 3 niveles:
+
 Nivel 1: Introducción al movimiento y salto
 
 
-Nivel 2: Plataformas móviles
+Nivel 2: Plataformas
 
 
-Nivel 3: Enemigos básicos
-
-
-Nivel 4: Saltos dobles y trampas
-
-
-Nivel 5: Nivel final con mayor dificultad
+Nivel 3: Trampas 
 
 
 Cada nivel aumenta progresivamente la dificultad.
